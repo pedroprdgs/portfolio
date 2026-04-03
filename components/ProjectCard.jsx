@@ -1,8 +1,16 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function ProjectCard({ title, description, techs, github, demo }){
     return(
-        <div className="bg-zinc-800 p-6 rounded-2xl border border-zinc-700 hover:border-zinc-500 transition">
+        <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.03 }}
+            className="bg-zinc-800 p-6 rounded-2xl border border-zinc-700 hover:border-zinc-500"
+        >
             <h3 className="text-zl font-semibold">{title}</h3>
 
             <p className="text-zinc-400 mt-2">{description}</p>
@@ -28,7 +36,7 @@ export default function ProjectCard({ title, description, techs, github, demo })
                     </a>
                 )}
             </div>
-        </div>
+        </motion.div>
     );
 }
 
