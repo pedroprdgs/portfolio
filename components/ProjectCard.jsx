@@ -9,7 +9,7 @@ export default function ProjectCard({ title, description, techs, github, demo })
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.03 }}
-            className="bg-zinc-800 p-6 rounded-2xl border border-zinc-700 hover:border-zinc-500"
+            className="bg-zinc-800 p-6 rounded-2xl border border-zinc-700 hover:border-zinc-500 justify-between flex flex-col"
         >
             <h3 className="text-zl font-semibold">{title}</h3>
 
@@ -17,7 +17,7 @@ export default function ProjectCard({ title, description, techs, github, demo })
 
             <div className="flex flex-wrap gap-2 mt-3">
                 {techs.map((tech, i) => (
-                    <span key={i} className={`px-2 py-1 rounded text-sm ${techColors[tech] || "bg-zinc-700"}`}>
+                    <span key={i} className={`px-2 py-1 rounded text-sm font-medium ${techColors[tech] || "bg-zinc-700"}`}>
                         {tech}
                     </span>
                 ))}
@@ -45,8 +45,9 @@ const techColors = {
     JavaScript: "bg-yellow-500 text-black",
     PostgreSQL: "bg-blue-800",
     "Node.js": "bg-green-600",
+    Python: "bg-yellow-400 text-blue-black",
     PHP: "bg-purple-600",
-    React: "bg-cyan-600 text-black",
+    React: "bg-cyan-600",
     HTML: "bg-orange-500 text-black",
     CSS: "bg-blue-500 text-black",
 }

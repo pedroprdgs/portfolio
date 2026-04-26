@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Stack from '../components/Stack';
 import Contact from '../components/Contact';
+import Curriculum from '../components/Curriculum';
 
 export default function App() {
   return(
@@ -11,6 +12,7 @@ export default function App() {
       <About />
       <Stack />
       <Projects />
+      <Curriculum />
       <Contact />
     </div>
   );

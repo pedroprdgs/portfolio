@@ -14,9 +14,15 @@ export default function Projects(){
                 <ProjectCard
                     title="CRUD World"
                     description="A CRUD aplication focusing in geographic data management, including integration with REST Countries and OpenWeatherMap APIs."
-                    techs={["HTML", "PHP", "CSS", "TypeScript", "PostgreSQL"]}
+                    techs={["HTML", "PHP", "CSS", "React", "TypeScript", "PostgreSQL"]}
                     github="https://github.com/pedroprdgs/CRUD-World"
                     demo="https://crudworld.up.railway.app/"
+                />
+                <ProjectCard
+                    title="Radar Cidadão"
+                    description="A live application integrated with the API of the deputy chamber of Brazil, providing information about the deputies and their activities."
+                    techs={["Python", "HTML", "CSS"]}
+                    github="https://github.com/NoClip-API/radar-cidadao"
                 />
             </div>
         </section>

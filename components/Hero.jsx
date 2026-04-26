@@ -14,7 +14,7 @@ export default function Hero(){
                       <a href="https://github.com/pedroprdgs" target="_blank" className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-lg font-medium hover:scale-105 transition"><FaGithub/>Github</a>
                     </div>
                     <div className="mt-6 flex justify-center gap-4">
-                      <a href="https://www.linkedin.com/in/pedro-pereira-aa7001274/" target="_blank" className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:scale-105 transition"><FaLinkedin/>Linkedin</a>
+                      <a href="https://www.linkedin.com/in/pedro-rodrigues-aa7001274/" target="_blank" className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:scale-105 transition"><FaLinkedin/>Linkedin</a>
                     </div>
                 </motion.div>
             </motion.div>
