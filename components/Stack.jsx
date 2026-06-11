@@ -60,7 +60,7 @@ export default function Stack(){
                         <h3 className="text-xl font-semibold mb-6 text-white">Tools</h3>
                         <ul className="space-y-3 text-gray-400">
                             <li className="flex items-center gap-2">
-                                <FaGitAlt className="text-orange-500" /> Git & Github
+                                <FaGitAlt className="text-orange-500" /> Git
                             </li>
                             <li className="flex items-center gap-2">
                                 <FaDocker className="text-blue-400" /> Docker

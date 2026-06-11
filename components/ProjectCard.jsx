@@ -42,12 +42,15 @@ export default function ProjectCard({ title, description, techs, github, demo })
 
 const techColors = {
     TypeScript: "bg-blue-600",
-    JavaScript: "bg-yellow-500 text-black",
-    PostgreSQL: "bg-blue-800",
+    JavaScript: "bg-yellow-400 text-black",
+    PostgreSQL: "bg-blue-900",
     "Node.js": "bg-green-600",
-    Python: "bg-yellow-400 text-blue-black",
+    Python: "bg-yellow-500",
     PHP: "bg-purple-600",
     React: "bg-cyan-600",
     HTML: "bg-orange-500 text-black",
     CSS: "bg-blue-500 text-black",
+    MySQL: "bg-blue-800",
+    Docker: "bg-blue-700",
+    Godot: "bg-blue-400",
 }
