@@ -28,10 +28,10 @@ export default function Contact(){
                     <motion.a variants={item} href="mailto:pedropereirarodrigues16@gmail.com" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-600 px-6 py-3 rounded-xl duration-300 hover:scale-[1.03] hover:shadow-lg">
                         <FaEnvelope /><span>Email</span>
                     </motion.a>
-                    <motion.a variants={item} href="https:github.com/pedroprdgs" target="_blank" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-600 px-6 py-3 rounded-xl duration-300 hover:scale-[1.03] hover:shadow-lg">
+                    <motion.a variants={item} href="https://github.com/pedroprdgs" target="_blank" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-600 px-6 py-3 rounded-xl duration-300 hover:scale-[1.03] hover:shadow-lg">
                         <FaGithub /><span>Github</span>
                     </motion.a>
-                    <motion.a variants={item} href="https://linkedin.com/in/pedro-rodrigues-aa7001274/" target="_blank" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-600 px-6 py-3 rounded-xl duration-300 hover:scale-[1.03] hover:shadow-lg">
+                    <motion.a variants={item} href="https://linkedin.com/in/pedroprdgs/" target="_blank" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-800 hover:border-zinc-600 px-6 py-3 rounded-xl duration-300 hover:scale-[1.03] hover:shadow-lg">
                         <FaLinkedin /><span>Linkedin</span>
                     </motion.a>
                 </motion.div>

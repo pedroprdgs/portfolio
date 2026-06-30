@@ -20,7 +20,7 @@ export default function Projects(){
                 />
                 <ProjectCard
                     title="Red Inquiry"
-                    description="A Game I made as my capstone project in high school, developed in godot aiming to help exercising teens and young adults' brains"
+                    description="A Game made as my capstone project in high school, developed in godot aiming to help exercising teens and young adults' brains"
                     techs={["Godot"]}
                     github="https://github.com/TCCRedInquiryEtec2025/Red-Inquiry"
                     demo="https://pauloonada.itch.io/red-inquiry"
