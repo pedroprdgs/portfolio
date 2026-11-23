@@ -11,7 +11,7 @@ export default function ProjectCard({ title, description, techs, github, demo })
             whileHover={{ scale: 1.03 }}
             className="bg-zinc-800 p-6 rounded-2xl border border-zinc-700 hover:border-zinc-500 justify-between flex flex-col"
         >
-            <h3 className="text-zl font-semibold">{title}</h3>
+            <h3 className="text-xl font-semibold">{title}</h3>
 
             <p className="text-zinc-400 mt-2">{description}</p>
 

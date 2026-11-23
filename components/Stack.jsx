@@ -8,7 +8,7 @@ const container = {
     show: {
         opacity: 1,
         transition: {
-            sttagerChildren: 0.15
+            staggerChildren: 0.15
         }
     }
 }

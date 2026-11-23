@@ -5,7 +5,7 @@ const container = {
     hidden: { opacity: 0 },
     show: {
         opacity: 1,
-        tansition: {
+        transition: {
             staggerChildren: 0.15
         }
     }
