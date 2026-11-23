@@ -7,7 +7,7 @@ export default function Curriculum(){
                 <motion.h2 initial={{ y: 80 }} whileInView={{ y: 0 }} viewport={{ once: true }} transition={{ duration: 1.5 }} className="text-4xl font-bold mb-6">Curriculum</motion.h2>
                 <motion.p initial={{ y: 80 }} whileInView={{ y: 0 }} viewport={{ once: true }} transition={{ duration: 1.5 }} className="text-2xl text-gray-500 font-bold mb-6">
                     You can{" "}
-                    <a href="src/assets/files/curriculumPedroPereiraEnglish.pdf" download="CurriculumPedroRodrigues.pdf" className="text-white font-medium hover:text-zinc-300">
+                    <a href={`${import.meta.env.BASE_URL}files/curriculumPedroPereiraEnglish.pdf`} download="CurriculumPedroRodrigues.pdf" className="text-white font-medium hover:text-zinc-300">
                         download
                     </a> my curriculum (in english) or check it{" "}
                     <a href="https://drive.google.com/drive/folders/1cEKHcHR0b2crsAw1GznAmtk64pGncHLl?usp=sharing" target="_blank" className="text-white font-medium hover:text-zinc-300">
